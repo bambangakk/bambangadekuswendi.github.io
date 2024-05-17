@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Sederhana</title>
+    <link href="style.css" rel="stylesheet"/>
+
+  </head>
+  <body class="bg-secondary">
+    <div class="container shadow bg-white">
+      <header>
+        <img src="zm8ejxwi-removebg-preview.png" alt="" class="logo">
+        <h1>OLD SCHOOL JERSEY'S STORE</h1>
+      </header>
+      <!-- Menu -->
+      <div class="navbar">
+        <a href="#beranda">Beranda</a>
+        <a href="#produk">Produk</a>
+        <a href="#keranjang">Keranjang</a>
+        <a href="#kontak">Kontak</a>
+      <!-- banner -->
+      <div id="beranda" class="px-5 mb-4">
+        <img src="Juventus 1997_199sb.jpg" style="max-width: 100%; height: auto" class="rounded-3" />
+        <p style="font-size: 3em" class="text-center text-dark fw-bold p-4">ORDER NOW</p>
+        <p style="font-size: 1em;" class="text-center text-dark fw-bold p-4">Step into the world of nostalgia at Retro Jersey Hub, where we bring back the glory of timeless sports moments through our collection of iconic jerseys. Whether you're a die-hard fan reliving the golden era or a new admirer of vintage sports fashion, our hub is your go-to destination.
+        </p>
+      </div>
+
+    <div class="container" id="produk">
+      <h2>Produk</h2>
+      <div class="produk">
+        <div class="produk-item">
+          <h3>AJAX HOME 2000</h3>
+          <img src="ajax.jpg" alt="Deskripsi produk" style="max-width: 200px" />
+          <!-- Mengurangi lebar gambar -->
+          <p>Harga: Rp 1.492.348</p>
+          <button class="btn btn-succes" onclick="tambahKeKeranjang('AJAX HOME 2000', 1492348)" style="background-color: #ff5722; color: #fff">Tambahkan ke Keranjang</button>
+          <button class="btn btn-succes" onclick="beliProduk('https://www.tokopedia.com/gondesjersy/jersey-4j4x-original-2000-home-m-van-der-vaart-asli-vintage-ori?extParam=ivf%3Dfalse%26src%3Dsearch')" style="background-color: #28a745; color: #fff">Beli</button>
+        </div>
+        <div class="produk-item">
+          <h3>BARCELONA 1996 AWAY</h3>
+          <img src="barcelona.jpg" alt="Deskripsi produk" style="max-width: 200px" />
+          <!-- Mengurangi lebar gambar -->
+          <p>Harga: Rp 1.967.099</p>
+          <button onclick="tambahKeKeranjang('BARCELONA 1996 AWAY', 1967099)" style="background-color: #ff5722; color: #fff">Tambahkan ke Keranjang</button>
+          <button onclick="beliProduk('https://www.tokopedia.com/gondesjersy/jersey-barcelon4-original-1996-away-xl-luis-enrique-asli-vintage-ori?extParam=ivf%3Dfalse%26src%3Dsearch')" style="background-color: #28a745; color: #fff">Beli</button>
+        </div>
+        <div class="produk-item">
+          <h3>BLACKBURN 1994 AWAY</h3>
+          <img src="blacburn.jpg" alt="Deskripsi produk" style="max-width: 200px" />
+          <!-- Mengurangi lebar gambar -->
+          <p>Harga: Rp 1.929.348</p>
+          <button onclick="tambahKeKeranjang('BLACKBURN 1994 AWAY', 1929348)" style="background-color: #ff5722; color: #fff">Tambahkan ke Keranjang</button>
+          <button onclick="beliProduk('https://www.tokopedia.com/gondesjersy/jersey-bl4ckburn-original-1994-away-m-shearer-asli-vintage-ori?extParam=ivf%3Dfalse%26src%3Dsearch')" style="background-color: #28a745; color: #fff">Beli</button>
+        </div>
+        <div class="produk-item">
+          <h3>INTER MILAN 1996 AWAY</h3>
+          <img src="inter.jpg" alt="Deskripsi produk" style="max-width: 200px" />
+          <!-- Mengurangi lebar gambar -->
+          <p>Harga: Rp 3.289.243</p>
+          <button onclick="tambahKeKeranjang('INTER MILAN 1996 AWAY', 3289243)" style="background-color: #ff5722; color: #fff">Tambahkan ke Keranjang</button>
+          <button onclick="beliProduk('https://www.tokopedia.com/gondesjersy/jersey-1nt3r-m1l4n-1996-away-m-djorkaeff-asli-vintage-ori?extParam=ivf%3Dfalse%26src%3Dsearch')" style="background-color: #28a745; color: #fff">Beli</button>
+        </div>
+        <div class="produk-item">
+          <h3>REAL MADRID 2002 HOME</h3>
+          <img src="madrid.jpg" alt="Deskripsi produk" style="max-width: 200px" />
+          <!-- Mengurangi lebar gambar -->
+          <p>Harga: Rp 1.899.348</p>
+          <button onclick="tambahKeKeranjang('REAL MADRID 2002 HOME', 1899348)" style="background-color: #ff5722; color: #fff">Tambahkan ke Keranjang</button>
+          <button onclick="beliProduk('https://www.tokopedia.com/gondesjersy/jersey-r34l-m4dr1d-original-2002-home-ls-l-raul-asli-vintage-ori?extParam=ivf%3Dfalse%26src%3Dsearch')" style="background-color: #28a745; color: #fff">Beli</button>
+        </div>
+        <div class="produk-item">
+          <h3>MEXICO 1994 HOME</h3>
+          <img src="mexico.jpg" alt="Deskripsi produk" style="max-width: 200px" />
+          <!-- Mengurangi lebar gambar -->
+          <p>Harga: Rp 1.880.345</p>
+          <button onclick="tambahKeKeranjang('MEXICO 1994 HOME', 1880345)" style="background-color: #ff5722; color: #fff">Tambahkan ke Keranjang</button>
+          <button onclick="beliProduk('https://www.tokopedia.com/gondesjersy/jersey-m3xc1c0-original-1994-home-m-sanchez-asli-vintage-ori?extParam=ivf%3Dfalse%26src%3Dsearch')" style="background-color: #28a745; color: #fff">Beli</button>
+        </div>
+        <div class="produk-item">
+          <h3>AC MILAN 1996 HOME</h3>
+          <img src="milan.jpg" alt="Deskripsi produk" style="max-width: 200px" />
+          <!-- Mengurangi lebar gambar -->
+          <p>Harga: Rp 1.980.348</p>
+          <button onclick="tambahKeKeranjang('AC MILAN 1996 HOME', 1980348)" style="background-color: #ff5722; color: #fff">Tambahkan ke Keranjang</button>
+          <button onclick="beliProduk('https://www.tokopedia.com/gondesjersy/jersey-4c-m1l4n-original-1996-home-l-albertini-asli-vintage-ori?extParam=ivf%3Dfalse%26src%3Dsearch')" style="background-color: #28a745; color: #fff">Beli</button>
+        </div>
+        <div class="produk-item">
+          <h3>PORTUGAL 1996 HOME</h3>
+          <img src="portugal.jpg" alt="Deskripsi produk" style="max-width: 200px" />
+          <!-- Mengurangi lebar gambar -->
+          <p>Harga: Rp 1.564.117</p>
+          <button onclick="tambahKeKeranjang('PORTUGAL 1996 HOME', 1564117)" style="background-color: #ff5722; color: #fff">Tambahkan ke Keranjang</button>
+          <button onclick="beliProduk('https://www.tokopedia.com/gondesjersy/jersey-portug4l-original-1996-home-m-luis-figo-asli-vintage-ori?extParam=ivf%3Dfalse%26src%3Dsearch')" style="background-color: #28a745; color: #fff">Beli</button>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="keranjang">
+      <h2>Keranjang Belanja</h2>
+      <div class="keranjang" id="keranjang">
+        <ul id="keranjang-item"></ul>
+        <button style="background-color: #007bff; color: #fff" onclick="beliWhatsApp()">Beli</button>
+        <button style="background-color: #dc3545; color: #fff" onclick="kosongkanKeranjang()">Kosongkan Keranjang</button>
+      </div>
+    </div>
+    <div class="aboutme">
+      <h2>Tentang Kami</h2>
+      <p class="text-center">
+Selamat datang di Old School Jersey's, destinasi utama bagi para pencinta jersey sepak bola vintage asli. Kami berdedikasi untuk membawa Anda kembali ke era keemasan sepak bola dengan koleksi jersey asli yang langka dan bersejarah.
+
+Di Old School Jersey's, kami memahami nilai sejarah dan keunikan setiap jersey. Setiap potongan kain adalah kisah yang menceritakan kejayaan klub dan pemain legendaris. Kami bangga menyajikan Anda dengan pilihan terbaik dari era-emas sepak bola, menghidupkan kembali momen-momen bersejarah melalui setiap desain yang autentik dan orisinal.
+
+Kami adalah komunitas yang bersemangat tentang sepak bola dan warisan budaya yang ditawarkannya. Dengan layanan yang ramah dan pengetahuan yang mendalam tentang produk kami, kami siap membantu Anda menemukan jersey vintage yang sempurna untuk melengkapi koleksi Anda atau sebagai hadiah istimewa bagi para penggemar sepak bola di sekitar Anda.
+
+Sambut nostalgia dengan Old School Jersey's, di mana setiap jersey bukan hanya pakaian, tetapi juga pintu masuk ke dalam kenangan indah dan semangat yang tak terlupakan dari lapangan hijau.
+      </p>
+    </div>
+    <div class="kontak" id="kontak">
+      <h2>Kontak</h2>
+      <p>
+        Jika Anda memiliki pertanyaan, hubungi kami di:
+        <a href="https://wa.me/62895326768315">0895326768315</a>
+      </p>
+      <p>
+        atau di instagram:
+        <a href="https://www.instagram.com/bambangakaa?igsh=cnh1OXQzZjdoZDJ1">bambangakaa</a>
+      </p>
+    </div>
+    <footer>
+      <p>Hak Cipta &copy; 2024 BAMBANG ADE KUSWENDI</p>
+    </footer>
+    <script>
+      // JavaScript untuk keranjang
+      let keranjangItems = [];
+
+      function tambahKeKeranjang(nama, harga) {
+        keranjangItems.push({ nama: nama, harga: harga });
+        renderKeranjang();
+      }
+
+      function renderKeranjang() {
+        const keranjangElement = document.getElementById("keranjang-item");
+        keranjangElement.innerHTML = "";
+        let totalHarga = 0;
+        keranjangItems.forEach((item) => {
+          const li = document.createElement("li");
+          li.textContent = `${item.nama} - Rp ${item.harga.toLocaleString()}`; // Ubah dolar menjadi rupiah
+          keranjangElement.appendChild(li);
+          totalHarga += item.harga;
+        });
+        const totalHargaElement = document.createElement("li");
+        totalHargaElement.textContent = `Total: Rp ${totalHarga.toLocaleString()}`; // Ubah dolar menjadi rupiah
+        keranjangElement.appendChild(totalHargaElement);
+      }
+
+      function kosongkanKeranjang() {
+        keranjangItems = [];
+        renderKeranjang();
+      }
+
+      function beliProduk(url) {
+        window.location.href = url;
+      }
+
+      function beliWhatsApp() {
+    // Siapkan detail barang yang dibeli dan total harga dari keranjang
+    let pesan = "Pesanan saya:\n";
+    keranjangItems.forEach(item => {
+        pesan += `${item.nama} - Rp ${item.harga.toLocaleString()}\n`;
+    });
+    pesan += `\nTotal Harga: Rp ${hitungTotalHarga().toLocaleString()}`;
+
+    // Ganti nomor telepon dengan nomor WhatsApp Anda
+    const nomorWhatsApp = "62895326768315";
+
+    // Membuat link WhatsApp dengan pesan yang sudah disiapkan
+    const linkWhatsApp = `https://wa.me/${nomorWhatsApp}/?text=${encodeURIComponent(pesan)}`;
+
+    // Arahkan ke link WhatsApp
+    window.location.href = linkWhatsApp;
+}
+
+// Fungsi untuk menghitung total harga dari keranjang
+    function hitungTotalHarga() {
+    let totalHarga = 0;
+    keranjangItems.forEach(item => {
+        totalHarga += item.harga;
+    });
+    return totalHarga;
+}
+
+      
+    </script>
+  </body>
+</html>
